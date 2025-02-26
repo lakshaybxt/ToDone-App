@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ToDone App </title>
+	<link rel="stylesheet" href="styles.css">
+	<link rel="shortcut icon" href="./images/to-do-list.png" type="image/x-icon">
+	
+</head>
+<body>
+	<img src="https://media.tenor.com/wKP-p_HtfOoAAAAj/bubu-dudu.gif" alt="GIF" class="gif">
+	<div class="container">
+		<div class="stats-contatiner">
+			<!-- details -->
+			<div class="details">
+				<h1>ToDone</h1>
+				<p>Just believe in.. It'll be done!!</p>
+				<div id="progress-bar">
+					<div id="progress"></div>
+				</div>
+			</div>
+			<!-- stats -->
+			<div class="stats-numbers">
+				<p id="numbers">0 / 0</p>
+			</div>
+		</div>
+
+		<form action="">
+			<input type="text" id="taskInput" placeholder="Write your task">
+			<button id="newTask" type="submit">+</button>
+		</form>
+
+		<ul class="task-list"></ul>
+	</div>
+	<script src="script.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+</body>
+</html>
